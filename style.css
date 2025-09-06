@@ -181,3 +181,13 @@ footer {
   background: #020202;
   color: rgb(221, 241, 32);
 }
+@media (max-width: 600px) {
+  .section {
+    flex-direction: column;
+    padding: 100px 20px;
+  }
+  .img-box img {
+    width: 180px;
+    height: 180px;
+  }
+}
