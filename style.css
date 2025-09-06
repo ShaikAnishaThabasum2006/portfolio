@@ -1,0 +1,183 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  line-height: 1.6;
+  scroll-behavior: smooth;
+  background: #ced9e6;
+}
+
+/* Navbar */
+header {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  padding: 15px 50px;
+  background: rgb(247, 225, 171);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 1000;
+  border-bottom: 2px solid #e747a4;
+  border-top: 2px solid #e747a4;
+  border-left: 2px solid #e747a4;
+  border-right: 2px solid #e747a4;
+  
+  
+  
+}
+
+header .logo {
+  color: #4722eb;
+  font-size: 44px;
+  font-weight: 70px;
+  text-decoration: none;
+}
+
+header .navlist {
+  display: flex;
+  list-style: none;
+  
+}
+
+header .navlist li {
+  margin-left: 4dvh;
+}
+
+header .navlist a {
+  color: #4722eb;
+  text-decoration: none;
+  font-size: 20px;
+  transition: 0.3s;
+}
+
+header .navlist a:hover {
+  color: #09864c;
+}
+
+/* Section */
+.section {
+  min-height: 100vh;
+  padding: 120px 50px 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  background: rgb(247, 225, 171);
+  border-bottom: 1px solid #eceaea;
+  
+}
+
+.text-box {
+  max-width: 800px;
+  
+}
+
+.text-box h1 span {
+  color: #e42dad;
+  font-size: 40px;
+}
+
+.text-box h2 {
+  margin-bottom: 15px;
+}
+
+/* Image Box */
+.img-box img {
+  width: 400px;
+  height: 400px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 4px solid #f054af;
+}
+
+/* Button */
+.btn {
+  background: #cf44a6;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  display: inline-block;
+  margin-top: 20px;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background: #115a2f;
+}
+
+/* Social Icons */
+.social-icons {
+  margin-top: 20px;
+  display: flex;
+  gap: 15px;
+  
+}
+
+.social-icons a {
+  font-size: 28px;
+ 
+  
+   display: inline-flex;
+    padding:8px;
+    border:2px solid rgb(219, 95, 182);
+    border-radius: 50%;
+    font-size: 20px;
+    color: rgb(39, 38, 39);
+    margin:0 8px;
+    transition: 5s;
+    background-color: white;
+}
+
+.social-icons a:hover {
+  color: #e2549b;
+  background: transparent;
+    
+    box-shadow: none;
+}
+
+/* Skills list */
+.skills ul {
+  list-style: none;
+  margin-top: 20px;
+}
+
+.skills ul li {
+  background: #fdc3e7;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 5px;
+}
+form {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #c570a4;
+    background-color: #e5fc63;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+}
+
+input[type="submit"] {
+    background-color: #27e074;
+    color: #800665;
+    cursor: pointer;
+    border-radius: 50px;
+}
+footer {
+  text-align: center;
+  padding: 1rem;
+  background: #020202;
+  color: rgb(221, 241, 32);
+}
